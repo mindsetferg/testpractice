@@ -1,0 +1,24 @@
+# Find what someone wants their purpose to be
+print("What will your main purpose of focus in life?", end=' ')
+do_in_life = input()
+
+# Set a financial target
+print("How much money would you like to make?", end=' ')
+money_made = input()
+
+# What will they do to achieve it
+print("What would you give or what service would you render to achieve them?", end=' ')
+services_rendered = input()
+
+# Get an end date!
+print("What date do you want to achieve this by?", end=' ')
+target_date = input()
+
+# Send final print out of the results.
+print(f'''
+So your decision has been made.
+You have the primary purpose of {do_in_life}
+and you want to make {money_made} by {target_date}
+and to make sure all of this happens,
+you will give (of yourself) or render the valuable service of {services_rendered}
+''')
