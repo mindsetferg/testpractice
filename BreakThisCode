@@ -1,0 +1,31 @@
+#establish variable for number of types of people, and
+#creates a formatted string with types_of_people variable
+types_of_people = 10
+x = f"There are {types_of_people} types of people."
+
+#sets the variable for a string and two string vars for later
+binary = "binary"
+do_not = "don't"
+y = f"Those who know {binary} and those who {do_not}."
+
+#print x and y variables
+print(x)
+print(y)
+
+#comment and print with the format affecting the {}
+print(f"I said: {x}")
+print(f"I also said: '{y}'")
+
+#boolean value with curly braces for future formatting
+hilarious = False
+joke_evaluation = "Isn't that joke so funny?! {}"
+
+#uses variable and format to update the inside
+print(joke_evaluation.format(hilarious))
+
+#setting two string variables
+w = "This is the left side of..."
+e = "a string with a right side."
+
+#prints the combined two variables
+print(w + e)
